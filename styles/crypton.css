@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "thunder";
+  src: url("./fonts/Thunder-ExtraBoldLC.woff2") format("woff2");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f3f3;
+  user-select: none;
+}
+.preloader {
+  position: absolute;
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+}
+h1 {
+  font-family: "thunder";
+  font-size: 250px;
+}
